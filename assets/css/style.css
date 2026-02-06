@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+.conteiner{
+    max-width: 900px;
+    margin: 0 auto;
+}
+#pricing-plans{
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .toggles{
+        text-align: end;
+    }
+}
